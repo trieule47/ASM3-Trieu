@@ -1,10 +1,31 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Header {
+  width: 100vw;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.Body img{
+  flex: 1;
+}
+
+.Body {
+  display: flex;
+}
+
+.Body .Info {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (prefers-reduced-motion: no-preference) {
